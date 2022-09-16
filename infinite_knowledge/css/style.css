@@ -1,0 +1,31 @@
+.container{
+    text-align: center;
+}
+
+.modeloTabla{
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modeloTabla th, td{
+    padding: 20px;
+}
+
+.modeloTabla thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+
+.modeloTabla tr:nth-child(even){
+    background-color: #DDD;
+}
+
+.modeloTabla tr:hover{
+    background-color: #369681;
+    color: white;
+}
